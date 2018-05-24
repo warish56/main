@@ -1,0 +1,30 @@
+@media (max-width: 320px) {
+
+
+
+    #intro-img{
+        max-width: 700px;
+    }
+
+    .fill-btn{
+        width: 100px;
+    }
+
+    .outline-btn{
+        width: 120px;
+    }
+
+    .home-storyOutline-btn{
+        max-width: 150px;
+    }
+
+
+    .home-advice-tool{
+        min-height: 300px;
+    }
+
+    .home-story-img{
+        transform: scaleY(1);
+    }
+
+}

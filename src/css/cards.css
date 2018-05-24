@@ -1,0 +1,33 @@
+.home-doCard{
+    border-radius: 0;
+    background-color: #4d4389;
+    line-height: 25px;
+    font-size: 35px;
+    min-height: 400px;
+
+}
+
+.home-doCard-text{
+    font-size: 12px;
+
+}
+
+.home-doCard-readMore{
+    position: absolute;
+    bottom: 35px;
+}
+
+.home-adviceCard{
+    border-radius: 0;
+    background-color: #f3f8fb;
+    min-height: 350px;
+}
+
+.home-advice-card-head{
+    color: #075aae;
+    font-size: 40px;
+}
+
+#about-whatWeProvideCards{
+    min-height: 418px;
+}

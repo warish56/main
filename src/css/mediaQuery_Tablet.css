@@ -1,0 +1,40 @@
+
+
+@media (max-width: 768px) {
+
+
+
+    .home-doCard{
+        font-size: 1.25rem;
+        min-height: 500px;
+
+    }
+
+
+    .about-feedback-card{
+        min-height: 410px;
+    }
+
+    .about-feedback-card-footer{
+        position: absolute;
+        bottom: 10px;
+    }
+
+    .home-doCard-readMore {
+        bottom: 45px;
+    }
+
+    .home-advice-tool{
+        min-height: 410px;
+        background-position: bottom;
+    }
+
+    .home-story-img{
+        transform: scaleY(1.1);
+    }
+
+    #about-whatWeProvideCards {
+     min-height: 440px;
+    }
+
+    }
