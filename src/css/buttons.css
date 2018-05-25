@@ -1,23 +1,22 @@
-.fill-btn{
-    width: 150px;
+.fill-btn {
+  width: 150px;
 }
 
-.outline-btn{
-    width: 150px;
-    height: 55px;
-    border-radius: 0;
-    border-width: 1px;
-    border-color: white;
-    border-style: solid;
-
+.outline-btn {
+  width: 150px;
+  height: 55px;
+  border-radius: 0;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
 }
 
-.home-storyOutline-btn{
-    width: 250px;
-    height: 55px;
-    border-radius: 0;
-    border-width: 1px;
-    border-color: #075aae;
-    border-style: solid;
-    color: #075aae;
+.home-storyOutline-btn {
+  width: 250px;
+  height: 55px;
+  border-radius: 0;
+  border-width: 1px;
+  border-color: #075aae;
+  border-style: solid;
+  color: #075aae;
 }

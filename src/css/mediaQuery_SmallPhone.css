@@ -1,30 +1,35 @@
-@media (max-width: 320px) {
+@media (max-width: 430px) {
+
+  #home-intro-img {
+    min-height:420px;
+    background-position: right;
+
+  }
 
 
 
-    #intro-img{
-        max-width: 700px;
-    }
 
-    .fill-btn{
-        width: 100px;
-    }
+  .home-doCard {
+    min-height: 400px;
+  }
 
-    .outline-btn{
-        width: 120px;
-    }
+  .fill-btn {
+    width: 100px;
+  }
 
-    .home-storyOutline-btn{
-        max-width: 150px;
-    }
+  .outline-btn {
+    width: 120px;
+  }
 
+  .home-storyOutline-btn {
+    max-width: 150px;
+  }
 
-    .home-advice-tool{
-        min-height: 300px;
-    }
+  .home-advice-tool {
+    min-height: 300px;
+  }
 
-    .home-story-img{
-        transform: scaleY(1);
-    }
-
+  .home-story-img {
+    transform: scaleY(1);
+  }
 }
