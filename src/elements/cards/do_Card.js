@@ -1,6 +1,5 @@
 import React from "react";
 import Outline from "../buttons/outline";
-
 const doCard = props => {
   let style = {
     fontSize: "1.8rem"
@@ -10,8 +9,9 @@ const doCard = props => {
     fontSize: "0.9rem"
   };
 
+
   return (
-    <div className="card  home-doCard  mt-2 pt-4 pb-4 pl-2 pr-2">
+    <div   className="card  home-doCard wow mt-2 pt-4 pb-4 pl-2 pr-2 ">
       <div className="card-body">
         <div className="d-flex flex-column ">
           <hr className="bg-white w-25 ml-3" />

@@ -11,8 +11,8 @@ const custom = props => {
     }
 
     return (
-        <div style={style} className="custom-btn  text-center p-1 ">
-            <p className="mt-2">{props.text}</p>
+        <div style={style} className=" custom-btn  text-center p-1 ">
+            <p className="mt-1">{props.text}</p>
         </div>
     );
 };

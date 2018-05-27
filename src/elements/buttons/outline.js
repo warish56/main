@@ -1,8 +1,12 @@
 import React from "react";
 
 const outline = props => {
-  let style = {
-    color: props.color ? props.color : "black"
+
+    // a custome button whose bg-color is transparent but have a border
+
+
+    let style = {
+    color: props.color ? props.color : "black" //user choice or else black(default)
   };
 
   return (

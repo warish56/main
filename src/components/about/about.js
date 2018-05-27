@@ -21,7 +21,11 @@ class about extends React.Component {
     return (
       <section id="about">
         {/*Front-Image*/}
-        <div className="container-fluid" id="about-img" />
+          <div className="container-fluid d-flex flex-row   align-items-center " id="about-img">
+                  <div className=" col-sm-6 align-self-center">
+                      <Heading size={'55px'} color={'white'} text={'About Us'}/>
+                  </div>
+          </div>
 
         <div className="container p-1 mt-2">
           <Paragraph

@@ -37,16 +37,24 @@ const story = () => {
               guide the innovators of today to develop products that matter.
             </p>
 
-            {/*Button*/}
-            <StoryOutline_Btn text={"Read Our Story"} />
+            {/*Button starts*/}
+            <div  className="mt-5 btn" >
+                <StoryOutline_Btn text={"Read Our Story"} />
+            </div>
+              {/*Button ends*/}
+
+
           </div>
 
+          {/*Image of the story starts*/}
           <div className="col-sm p-0 col-lg-5  ">
             <img
               src={require("../../Assets/story.png")}
               className="img-fluid home-story-img w-100"
             />
           </div>
+            {/*Image of the story starts*/}
+
         </div>
       </div>
     </section>

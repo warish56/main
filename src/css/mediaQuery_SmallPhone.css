@@ -2,12 +2,23 @@
 
   #home-intro-img {
     min-height:420px;
-    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 
   }
 
+  .head{
+    font-size: 22px;
+  }
 
+  #contact-intro-img{
+      background-image: url("../Assets/conatct-intro-small.JPG");
+      background-size: cover;
+      border: black 2px solid;
 
+  }
 
   .home-doCard {
     min-height: 400px;
@@ -32,4 +43,9 @@
   .home-story-img {
     transform: scaleY(1);
   }
+}
+
+
+@media (max-width: 330px) {
+
 }

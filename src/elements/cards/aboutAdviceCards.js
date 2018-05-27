@@ -5,6 +5,9 @@ import Paragraph from "../paragraph/paragraph";
 import Outline from "../buttons/outline";
 
 const aboutAdviceCard = props => {
+
+    // a specific advice card used in about
+
   let style = {
     backgroundColor: "#075aae",
     borderRadius: "0px",
@@ -32,8 +35,11 @@ const aboutAdviceCard = props => {
           />
         </div>
 
-        <div className="row p-3">
-          <Outline color={"white"} text={"Contact Us"} />
+        <div className="row p-3 ">
+            <div className="col btn ml-2">
+                <Outline color={"white"} text={"Contact Us"} />
+
+            </div>
         </div>
       </div>
     </div>

@@ -18,10 +18,10 @@ const touch = ()=>{
 
             <p style={{fontSize:'14px'}}><i  className="material-icons px-1  ">phone</i> Phone: +1 910-626-85255</p>
 
-            <p className="text-primary" style={{fontSize:'14px', cursor:'pointer'}}> <span className="fa fa-envelope px-2"> </span>Email: contact@heatherscott.com</p>
+            <p  style={{fontSize:'14px'}}> <a href="#" ><span className="fa fa-envelope px-2"> </span>Email: contact@heatherscott.com</a></p>
 
-            <p>
-                <span className="fa fa-facebook-f"> </span>
+            <p style={{fontSize:'14px'}}>
+                <span className="fa fa-map-marker px-2"> </span> CB-28 Kolkata- 700 018
             </p>
 
 

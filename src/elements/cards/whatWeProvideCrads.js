@@ -3,6 +3,9 @@ import Heading from "../../elements/heading/heading";
 import Paragraph from "../../elements/paragraph/paragraph";
 
 const whatWeProvideCards = props => {
+
+  //used in about component
+
   let style = {
     borderRadius: "0"
   };

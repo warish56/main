@@ -2,6 +2,10 @@ import React from "react";
 import Paragraph from "../paragraph/paragraph";
 
 const feedbackCard = props => {
+
+
+  //card used in about-feedback
+
   let style = {
     borderRadius: "0",
     color: props.color,

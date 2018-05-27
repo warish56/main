@@ -27,6 +27,8 @@ class todo extends  React.Component{
         ]
     };
 
+
+    //cards Database
       cards=[
 
 
@@ -58,10 +60,13 @@ class todo extends  React.Component{
 
 
     ];
+
+
       index=0;
 
 
-    nextHandler = ()=>{
+      //function for handling next set of cards by changing the cardRow in State
+       nextHandler = ()=>{
 
         let newCards=[];
             this.cards.map((item,index) =>{
@@ -75,7 +80,8 @@ class todo extends  React.Component{
 
     };
 
-   prevHandler = ()=>{
+     //function for handling previous set of cards  by changing the cardRow in State
+      prevHandler = ()=>{
 
         let newCards=[];
         this.cards.map((item,index) =>{
@@ -97,15 +103,16 @@ class todo extends  React.Component{
     render() {
 
         let card=[];
+        //mapping the cards  from cardRow into a new variable card
         this.state.cardRow.map((item,index) =>{
              card.push(
 
-                <div key={index} className="col-sm col-md-4 col-lg-4 col-xl-4">
-                    <Docard
+
+                    <Docard key={index}
                         head={item.head}
                         text={item.text}
                     />
-                </div>
+
 
 
             )  ;
@@ -113,7 +120,7 @@ class todo extends  React.Component{
 
         return (
             <div className="container-fluid text-center p-2">
-                {/*Text*/}
+                {/*Text starts*/}
                 <div className="p-3 ">
                     <div className="col-xl-5 m-auto">
                         <p className="h3 p-3"> What we do </p>
@@ -123,25 +130,31 @@ class todo extends  React.Component{
                         </p>
                     </div>
                 </div>
+                {/*Text ends*/}
 
-
+                {/*Buttons Section for left and right movement of cards starts*/}
                 <div className="d-flex flex-row  justify-content-center py-2">
                     <span  onClick={this.prevHandler} style={{fontSize: '40px', color: this.index === 0 ?'grey':'#4d4389', cursor:'pointer'}} className="fa fa-chevron-left align-self-start d-none d-sm-block py-3 px-5">
                     </span>
                     <span onClick={this.nextHandler} style={{fontSize: '40px', color: this.index === 2 ? 'grey':'#4d4389', cursor:'pointer'}} className="fa fa-chevron-right align-self-end d-none d-sm-block py-3 px-5">
                     </span>
                 </div>
+                {/*Buttons Section for left and right movement of cards ends*/}
 
 
                 {/*Cards Section*/}
 
                 <div className="container align-self-center  p-0">
-                    <div className="row   text-left text-white justify-content-between  ">
+                    <div className="card-deck  text-left text-white   ">
 
+                        {/*Displaying the current set of cards in cardRow of state*/}
                         {card}
 
-                        <div className="col-sm col-md-4 col-lg-4 col-xl-4">
+                    </div>
+
+                        <div className="row">
                             {/*Card-1*/}
+                            <div className="col-sm-4 text-left">
                             <Advice
                                 foot={"Contact Us"}
                                 head={"Need advice?"}
@@ -152,8 +165,9 @@ class todo extends  React.Component{
                                     "We, at Alien Brains, are ever-ready to help you with your doubts. Be it anything from technical to career, don’t hesitate to approach us."
                                 }
                             />
-                        </div>
-                        <div className="col-sm col-md-8 col-lg-8 col-xl-8 ">
+                            </div>
+
+                          <div className="col-sm-8 text-left ">
                             {/*card-2*/}
 
                             <Advice
@@ -165,8 +179,9 @@ class todo extends  React.Component{
                                     "To quench your thirst for knowledge and technology we have a series of workshops and seminars lined up for you."
                                 }
                             />
+                           </div>
                         </div>
-                    </div>
+
                 </div>
 
 

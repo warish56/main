@@ -7,6 +7,9 @@ import axios from 'axios';
     let url='https://fir-alpha-580cd.firebaseio.com/feedback.json';
 
 
+    //used in contact-form component
+    //function for submitting the feedback and returning a Promise
+
   export const  submitPost = (name, email, subject, message) =>{
 
         let payload={

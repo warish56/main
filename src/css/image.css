@@ -5,6 +5,7 @@
   background-position: center;
   background-repeat: no-repeat;
 
+
 }
 
 .home-advice-tool {
@@ -45,7 +46,7 @@
   min-height: 450px;
   width: 100%;
   background-position: right;
-
+  background-size: cover;
   background-repeat: no-repeat;
 
 }

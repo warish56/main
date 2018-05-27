@@ -7,6 +7,9 @@ import mediaTabletCss from "../../css/mediaQuery_Tablet.css";
 import mediaSmallPhoneCss from "../../css/mediaQuery_SmallPhone.css";
 
 const advice = props => {
+
+  // used in home_todo component
+
   let adviceText = {
     fontSize: "0.875rem"
   };
@@ -40,7 +43,7 @@ const advice = props => {
               {props.text2}
             </p>
 
-            <p className="mt-2 text-dark ">{props.foot}</p>
+              <a href="#"><p className="mt-2 text-dark ">{props.foot}</p></a>
           </div>
         </div>
       </div>
