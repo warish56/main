@@ -1,5 +1,5 @@
 #home-intro-img {
-  background-image: url("../Assets/Capture.JPG");
+  background-image: url("../Assets/cover.png");
   min-height: 700px;
   background-size: cover;
   background-position: center;
@@ -50,3 +50,22 @@
   background-repeat: no-repeat;
 
 }
+
+#home-courses{
+  background-image: url("../Assets/service1.jpg");
+  min-height:500px;
+  background-size: cover;
+  background-position: center;
+
+}
+
+
+.service-img{
+
+max-width: 100px;
+  max-height: 100px;
+  margin-top: 20px;
+  transform: rotate(-45deg);
+
+}
+

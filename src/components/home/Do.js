@@ -119,9 +119,9 @@ class todo extends  React.Component{
         });
 
         return (
-            <div className="container-fluid text-center p-2">
+            <div className="container-fluid text-center  p-2">
                 {/*Text starts*/}
-                <div className="p-3 ">
+                <div className="px-3 pt-3 ">
                     <div className="col-xl-5 m-auto">
                         <p className="h3 p-3"> What we do </p>
                         <p className="text-muted">
@@ -133,7 +133,7 @@ class todo extends  React.Component{
                 {/*Text ends*/}
 
                 {/*Buttons Section for left and right movement of cards starts*/}
-                <div className="d-flex flex-row  justify-content-center py-2">
+                <div className="d-flex flex-row  justify-content-center ">
                     <span  onClick={this.prevHandler} style={{fontSize: '40px', color: this.index === 0 ?'grey':'#4d4389', cursor:'pointer'}} className="fa fa-chevron-left align-self-start d-none d-sm-block py-3 px-5">
                     </span>
                     <span onClick={this.nextHandler} style={{fontSize: '40px', color: this.index === 2 ? 'grey':'#4d4389', cursor:'pointer'}} className="fa fa-chevron-right align-self-end d-none d-sm-block py-3 px-5">

@@ -1,7 +1,8 @@
 
 
-
-
+.heading-1{
+  font-size: 40px;
+}
 
 #intro-span {
   color: #f44292;
@@ -27,5 +28,15 @@
 .btn:hover{
   transform: scale(1.1 ,1.1);
   transition: transform 100ms linear ;
+}
+
+.dark-overlay{
+  position: absolute;
+  height: 700px;
+  width: 100vw;
+  top: 80px;
+  left: 0;
+  background-image: linear-gradient(270deg, rgba(7,90,174,0), rgba(8,0,96,0.49));
+
 }
 

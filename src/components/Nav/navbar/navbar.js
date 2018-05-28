@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 class navbar extends React.Component {
   render() {
     return (
-      <nav className="container-fluid  m-0 ">
+      <nav className="container-fluid  m-0  ">
         <div className=" row align-items-center justify-content-between p-2">
           <div className="col-xl-2 col-md-2  col-sm ">
             <img

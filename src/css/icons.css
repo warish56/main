@@ -1,0 +1,29 @@
+
+#icon-outline{
+
+    border: white 4px double;
+    background-color: transparent;
+    min-height: 150px;
+    max-width: 150px;
+    transform: rotate(45deg);
+
+
+}
+
+#icon-outline:hover{
+
+
+   animation: zoom .5s ease-in;
+}
+
+
+@keyframes zoom {
+
+    from{
+        transform: rotate(45deg) scale3d(1,1,1);
+
+    }
+    to{
+        transform: rotate(45deg) scale3d(1.2,1.2,1.2);
+    }
+}
